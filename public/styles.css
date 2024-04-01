@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f8ff;
+}
+
+.table-container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f0f8ff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #87ceeb;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #e0f0ff;
+}
